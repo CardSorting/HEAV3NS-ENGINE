@@ -1,0 +1,28 @@
+{
+    "Version": 2,
+    "BuildContentOptions": [
+        "None"
+    ],
+    "BuildManifestHash": "00000000000000000000000000000000",
+    "BuildName": "Heav3ns",
+    "BuildOptions": [
+        "None"
+    ],
+    "BuildProfilePath": "",
+    "BuildResult": 1,
+    "BuildResultName": "Succeeded",
+    "BuildSessionGUID": "3f1caa2dc91484803954dcae2ebd08f3",
+    "BuildStartedAt": "2026-11-01T17:52:18.3655120Z",
+    "BuildType": 1,
+    "BuildTypeName": "Player",
+    "ContentSourceBuildSessionGUID": "00000000000000000000000000000000",
+    "OutputPath": "/Users/bozoegg/Desktop/HEAV3NS-ENGINE/unity_client/Builds/macOS/Heav3ns.app",
+    "Platform": 2,
+    "PlatformName": "StandaloneOSX",
+    "Subtarget": 2,
+    "SubtargetName": "Player",
+    "TotalErrors": 0,
+    "TotalSizeBytes": 76035305,
+    "TotalTimeMs": 4214,
+    "TotalWarnings": 1
+}

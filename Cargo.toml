@@ -1,0 +1,29 @@
+[package]
+name = "heav3ns-engine"
+version = "0.4.1"
+edition = "2021"
+description = "HEAV3NS-ENGINE — Dedicated deterministic Rust game engine and Enchanted Table runtime for WONDERLAND"
+license = "Proprietary"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0", features = ["preserve_order"] }
+sha2 = "0.10"
+thiserror = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+
+[lib]
+name = "heav3ns_engine"
+path = "src/lib.rs"
+crate-type = ["rlib", "cdylib"]
+
+[[bin]]
+name = "heav3ns-engine"
+path = "src/main.rs"
+
+[workspace]
+members = [".", "client_macroquad"]
+default-members = ["client_macroquad", "."]
+
+
+

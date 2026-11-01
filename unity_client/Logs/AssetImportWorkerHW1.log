@@ -1,0 +1,1465 @@
+Unity Editor version:    6000.6.7f1 (b22767f04f04)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.5.1 (Build 25F80)
+Darwin version:          25.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Date:                    2026-11-01T18:55:59Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-bozoegg" at "2026-11-01T18:55:59.65127Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW1
+-projectPath
+/Users/bozoegg/Desktop/HEAV3NS-ENGINE/unity_client
+-logFile
+Logs/AssetImportWorkerHW1.log
+-srvPort
+58468
+-parentPid
+83763
+-analyticsCloudUserId
+20067677559360
+-analyticsLocalProjectId
+3cd314eed299e4f11a33da1d4a20a41c
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+f7d9eb9e6d8c8beb9528091beaf8fff8164c89ca
+-cbmMachineId
+l88GPABXChabiKznCzW6ccjumzg=
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+4
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-metal
+-name AssetImport
+Successfully changed project path to: /Users/bozoegg/Desktop/HEAV3NS-ENGINE/unity_client
+/Users/bozoegg/Desktop/HEAV3NS-ENGINE/unity_client
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8272027264]  Target information:
+
+Player connection [8272027264]  * "[IP] 192.168.1.170 [Port] 0 [Flags] 2 [Guid] 2425356710 [EditorId] 2425356710 [Version] 1048832 [Id] OSXEditor(0,MacBookPro.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8272027264] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8272027264] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 945034954021e733d7c63313c7da088d
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052672
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 9.31 ms, found 3 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.7f1 (b22767f04f04)
+[EntityIdStore] init: VM path (explicit commit), pageSize=16384, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bozoegg/Desktop/HEAV3NS-ENGINE/unity_client/Assets
+Forcing GfxDevice: Metal
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Mac GPU Family: 2
+Apple GPU Family: 7
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              9b76a46957374707b48710611f38a302
+  Correlation Id:          a998eb39cd076ee629c019df6d81bff9
+  External correlation Id: 8962481289995357555
+  Machine Id:              l88GPABXChabiKznCzW6ccjumzg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-bozoegg" (connect: 0.00s, validation: 0.00s, handshake: 0.48s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-bozoegg-notifications" at "2026-11-01T18:56:00.135615Z"
+[Licensing::Module] Licensing Background thread has ended after 0.48s
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56062
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.7f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.7f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002164 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.556 seconds
+Domain Reload Profiling: 1020ms
+	BeginReloadAssembly (103ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (104ms)
+		TypeCache.Refresh (205ms)
+			TypeCache.ScanAssembly (188ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (557ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (322ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067677559360-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.629 seconds
+Domain Reload Profiling: 1312ms
+	BeginReloadAssembly (129ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (239ms)
+		TypeCache.Refresh (172ms)
+			TypeCache.ScanAssembly (154ms)
+		AnalyzeDomain (31ms)
+			BuildScriptInfoCaches (29ms)
+	FinalizeReload (629ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (222ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3607 unused Assets / (2.3 MB). Loaded Objects now: 4270.
+Memory consumption went from 140.9 MB to 138.7 MB.
+Total: 12.138250 ms (FindLiveObjects: 0.418458 ms CreateObjectMapping: 0.085167 ms MarkObjects: 10.762833 ms  DeleteObjects: 0.761333 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3582 unused Assets / (2.0 MB). Loaded Objects now: 4270.
+Memory consumption went from 139.4 MB to 137.4 MB.
+Total: 20.846417 ms (FindLiveObjects: 0.433375 ms CreateObjectMapping: 0.092917 ms MarkObjects: 19.551125 ms  DeleteObjects: 0.661375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-01T18:56:31.885299Z
+  Time since last request: 383137.98251195799094 seconds.
+  importAddress: GUID: 94cf93d749c4a4feda84cc27cb7c6561 - Path: Assets/Scripts/UI/GachaAltarVisuals.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 94cf93d749c4a4feda84cc27cb7c6561 - Path: Assets/Scripts/UI/GachaAltarVisuals.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 94cf93d749c4a4feda84cc27cb7c6561' -> (Import Result ID: '019b2e87cba678593371bb1d6ae45a1d') in 0.045 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d999417e34cc860ba15828c9467eed9f DependenciesID=683a44a32ab48afe61d735626ce2b0b2 StaticDependenciesID=fb7543124678861c5c2ccdcbc0d64cb3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Thread 0x417ec7000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.706 seconds
+Domain Reload Profiling: 1585ms
+	BeginReloadAssembly (255ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (326ms)
+		TypeCache.Refresh (17ms)
+		AnalyzeDomain (144ms)
+			BuildScriptInfoCaches (141ms)
+	FinalizeReload (707ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (226ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3605 unused Assets / (2.4 MB). Loaded Objects now: 4273.
+Memory consumption went from 157.2 MB to 154.8 MB.
+Total: 12.436792 ms (FindLiveObjects: 0.435417 ms CreateObjectMapping: 0.086125 ms MarkObjects: 10.816375 ms  DeleteObjects: 0.991416 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Thread 0x17a21f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.701 seconds
+Domain Reload Profiling: 1184ms
+	BeginReloadAssembly (147ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (204ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (701ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (233ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3605 unused Assets / (2.0 MB). Loaded Objects now: 4274.
+Memory consumption went from 168.5 MB to 166.5 MB.
+Total: 14.676459 ms (FindLiveObjects: 0.426792 ms CreateObjectMapping: 0.089667 ms MarkObjects: 13.340667 ms  DeleteObjects: 0.711208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3582 unused Assets / (2.0 MB). Loaded Objects now: 4274.
+Memory consumption went from 165.7 MB to 163.6 MB.
+Total: 40.258875 ms (FindLiveObjects: 1.391916 ms CreateObjectMapping: 0.666750 ms MarkObjects: 37.113959 ms  DeleteObjects: 0.947875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x179edf000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 4.35 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.712 seconds
+Domain Reload Profiling: 1472ms
+	BeginReloadAssembly (192ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (473ms)
+		LoadAssemblies (288ms)
+		TypeCache.Refresh (16ms)
+		AnalyzeDomain (138ms)
+			BuildScriptInfoCaches (135ms)
+	FinalizeReload (713ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (232ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3605 unused Assets / (2.4 MB). Loaded Objects now: 4275.
+Memory consumption went from 179.7 MB to 177.3 MB.
+Total: 12.085583 ms (FindLiveObjects: 0.402500 ms CreateObjectMapping: 0.094000 ms MarkObjects: 10.576333 ms  DeleteObjects: 0.905292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Thread 0x179edf000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.724 seconds
+Domain Reload Profiling: 1234ms
+	BeginReloadAssembly (164ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (202ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (724ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (235ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3605 unused Assets / (1.9 MB). Loaded Objects now: 4276.
+Memory consumption went from 191.0 MB to 189.1 MB.
+Total: 12.411667 ms (FindLiveObjects: 0.530208 ms CreateObjectMapping: 0.086500 ms MarkObjects: 10.914333 ms  DeleteObjects: 0.774875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3582 unused Assets / (1.8 MB). Loaded Objects now: 4276.
+Memory consumption went from 188.2 MB to 186.3 MB.
+Total: 28.090917 ms (FindLiveObjects: 1.317083 ms CreateObjectMapping: 0.220042 ms MarkObjects: 25.337708 ms  DeleteObjects: 0.860292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Thread 0x179e77000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.720 seconds
+Domain Reload Profiling: 1478ms
+	BeginReloadAssembly (195ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (474ms)
+		LoadAssemblies (301ms)
+		TypeCache.Refresh (14ms)
+		AnalyzeDomain (136ms)
+			BuildScriptInfoCaches (132ms)
+	FinalizeReload (720ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (237ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3605 unused Assets / (1.7 MB). Loaded Objects now: 4277.
+Memory consumption went from 202.2 MB to 200.5 MB.
+Total: 12.619750 ms (FindLiveObjects: 0.554250 ms CreateObjectMapping: 0.169000 ms MarkObjects: 11.031500 ms  DeleteObjects: 0.752708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3582 unused Assets / (1.5 MB). Loaded Objects now: 4277.
+Memory consumption went from 199.3 MB to 197.8 MB.
+Total: 47.178750 ms (FindLiveObjects: 1.955666 ms CreateObjectMapping: 0.296250 ms MarkObjects: 43.061333 ms  DeleteObjects: 1.246541 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x179e77000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1529ms
+	BeginReloadAssembly (217ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (503ms)
+		LoadAssemblies (322ms)
+		TypeCache.Refresh (17ms)
+		AnalyzeDomain (143ms)
+			BuildScriptInfoCaches (140ms)
+	FinalizeReload (708ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (228ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3605 unused Assets / (1.8 MB). Loaded Objects now: 4278.
+Memory consumption went from 213.4 MB to 211.5 MB.
+Total: 12.428667 ms (FindLiveObjects: 0.567791 ms CreateObjectMapping: 0.103167 ms MarkObjects: 10.950666 ms  DeleteObjects: 0.694667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3584 unused Assets / (2.1 MB). Loaded Objects now: 4280.
+Memory consumption went from 210.5 MB to 208.4 MB.
+Total: 55.714291 ms (FindLiveObjects: 0.718416 ms CreateObjectMapping: 0.109583 ms MarkObjects: 53.775125 ms  DeleteObjects: 0.961833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Thread 0x17a2ab000 may have been prematurely finalized
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1582ms
+	BeginReloadAssembly (226ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (525ms)
+		LoadAssemblies (326ms)
+		TypeCache.Refresh (23ms)
+		AnalyzeDomain (151ms)
+			BuildScriptInfoCaches (142ms)
+	FinalizeReload (728ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (236ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3607 unused Assets / (1.8 MB). Loaded Objects now: 4281.
+Memory consumption went from 224.6 MB to 222.7 MB.
+Total: 12.845250 ms (FindLiveObjects: 0.412667 ms CreateObjectMapping: 0.100250 ms MarkObjects: 11.421917 ms  DeleteObjects: 0.794208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 5.94 ms, found 3 plugins.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3585 unused Assets / (1.9 MB). Loaded Objects now: 4282.
+Memory consumption went from 221.7 MB to 219.8 MB.
+Total: 31.688916 ms (FindLiveObjects: 0.616791 ms CreateObjectMapping: 0.096208 ms MarkObjects: 29.992042 ms  DeleteObjects: 0.835541 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x179e77000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.729 seconds
+Domain Reload Profiling: 1528ms
+	BeginReloadAssembly (211ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (293ms)
+		TypeCache.Refresh (20ms)
+		AnalyzeDomain (151ms)
+			BuildScriptInfoCaches (147ms)
+	FinalizeReload (729ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (231ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (1.9 MB). Loaded Objects now: 4283.
+Memory consumption went from 235.8 MB to 233.9 MB.
+Total: 12.407500 ms (FindLiveObjects: 0.456500 ms CreateObjectMapping: 0.088250 ms MarkObjects: 11.018833 ms  DeleteObjects: 0.737667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Thread 0x179e77000 may have been prematurely finalized
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.741 seconds
+Domain Reload Profiling: 1431ms
+	BeginReloadAssembly (242ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (328ms)
+		TypeCache.Refresh (11ms)
+		AnalyzeDomain (5ms)
+	FinalizeReload (742ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (244ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (1.9 MB). Loaded Objects now: 4284.
+Memory consumption went from 247.1 MB to 245.2 MB.
+Total: 13.194916 ms (FindLiveObjects: 0.516833 ms CreateObjectMapping: 0.099458 ms MarkObjects: 11.658667 ms  DeleteObjects: 0.810000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3585 unused Assets / (1.9 MB). Loaded Objects now: 4284.
+Memory consumption went from 244.3 MB to 242.4 MB.
+Total: 31.737083 ms (FindLiveObjects: 0.630541 ms CreateObjectMapping: 0.097000 ms MarkObjects: 29.954208 ms  DeleteObjects: 0.911333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Thread 0x179e77000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.708 seconds
+Domain Reload Profiling: 1489ms
+	BeginReloadAssembly (178ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (524ms)
+		LoadAssemblies (333ms)
+		TypeCache.Refresh (15ms)
+		AnalyzeDomain (145ms)
+			BuildScriptInfoCaches (142ms)
+	FinalizeReload (708ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (226ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (2.0 MB). Loaded Objects now: 4285.
+Memory consumption went from 258.3 MB to 256.3 MB.
+Total: 12.543833 ms (FindLiveObjects: 0.429333 ms CreateObjectMapping: 0.088334 ms MarkObjects: 11.171417 ms  DeleteObjects: 0.745000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Thread 0x179e77000 may have been prematurely finalized
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1269ms
+	BeginReloadAssembly (149ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (294ms)
+		LoadAssemblies (238ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (745ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (246ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (1.1 MB). Loaded Objects now: 4286.
+Memory consumption went from 269.6 MB to 268.5 MB.
+Total: 13.525208 ms (FindLiveObjects: 0.444917 ms CreateObjectMapping: 0.125375 ms MarkObjects: 11.903625 ms  DeleteObjects: 0.943459 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Thread 0x179e77000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.006 seconds
+Domain Reload Profiling: 1591ms
+	BeginReloadAssembly (158ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (268ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (4ms)
+	FinalizeReload (1007ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (268ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (1.2 MB). Loaded Objects now: 4287.
+Memory consumption went from 280.9 MB to 279.7 MB.
+Total: 22.528750 ms (FindLiveObjects: 3.540250 ms CreateObjectMapping: 5.417750 ms MarkObjects: 11.961250 ms  DeleteObjects: 1.457292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3585 unused Assets / (1.2 MB). Loaded Objects now: 4287.
+Memory consumption went from 278.1 MB to 276.9 MB.
+Total: 73.652083 ms (FindLiveObjects: 0.924834 ms CreateObjectMapping: 0.139750 ms MarkObjects: 70.805625 ms  DeleteObjects: 1.554625 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x179e77000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.714 seconds
+Domain Reload Profiling: 1526ms
+	BeginReloadAssembly (182ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (536ms)
+		LoadAssemblies (335ms)
+		TypeCache.Refresh (26ms)
+		AnalyzeDomain (145ms)
+			BuildScriptInfoCaches (141ms)
+	FinalizeReload (715ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (226ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (2.0 MB). Loaded Objects now: 4288.
+Memory consumption went from 292.1 MB to 290.1 MB.
+Total: 12.041625 ms (FindLiveObjects: 0.445166 ms CreateObjectMapping: 0.106834 ms MarkObjects: 10.637125 ms  DeleteObjects: 0.743542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3585 unused Assets / (2.3 MB). Loaded Objects now: 4288.
+Memory consumption went from 289.3 MB to 287.0 MB.
+Total: 14.047500 ms (FindLiveObjects: 0.418541 ms CreateObjectMapping: 0.093417 ms MarkObjects: 12.336625 ms  DeleteObjects: 1.087666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Thread 0x179e77000 may have been prematurely finalized
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.701 seconds
+Domain Reload Profiling: 1513ms
+	BeginReloadAssembly (180ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (545ms)
+		LoadAssemblies (342ms)
+		TypeCache.Refresh (15ms)
+		AnalyzeDomain (149ms)
+			BuildScriptInfoCaches (140ms)
+	FinalizeReload (702ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (227ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (2.4 MB). Loaded Objects now: 4289.
+Memory consumption went from 303.3 MB to 300.9 MB.
+Total: 12.383667 ms (FindLiveObjects: 0.494541 ms CreateObjectMapping: 0.098584 ms MarkObjects: 10.832125 ms  DeleteObjects: 0.845000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Thread 0x179e77000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 1164ms
+	BeginReloadAssembly (147ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (190ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (698ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (232ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (1.9 MB). Loaded Objects now: 4290.
+Memory consumption went from 314.6 MB to 312.8 MB.
+Total: 12.190667 ms (FindLiveObjects: 0.472417 ms CreateObjectMapping: 0.096791 ms MarkObjects: 10.801209 ms  DeleteObjects: 0.714042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3585 unused Assets / (1.7 MB). Loaded Objects now: 4290.
+Memory consumption went from 311.8 MB to 310.2 MB.
+Total: 13.555417 ms (FindLiveObjects: 0.404542 ms CreateObjectMapping: 0.093792 ms MarkObjects: 12.217333 ms  DeleteObjects: 0.731917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x179e77000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.735 seconds
+Domain Reload Profiling: 1563ms
+	BeginReloadAssembly (181ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (368ms)
+		TypeCache.Refresh (14ms)
+		AnalyzeDomain (148ms)
+			BuildScriptInfoCaches (143ms)
+	FinalizeReload (736ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (245ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (2.1 MB). Loaded Objects now: 4291.
+Memory consumption went from 325.9 MB to 323.8 MB.
+Total: 13.138959 ms (FindLiveObjects: 0.457625 ms CreateObjectMapping: 0.090000 ms MarkObjects: 11.584542 ms  DeleteObjects: 0.899416 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Thread 0x179edf000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.691 seconds
+Domain Reload Profiling: 1149ms
+	BeginReloadAssembly (146ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (181ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (692ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (223ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (2.0 MB). Loaded Objects now: 4292.
+Memory consumption went from 337.2 MB to 335.2 MB.
+Total: 12.313500 ms (FindLiveObjects: 0.429209 ms CreateObjectMapping: 0.090500 ms MarkObjects: 10.920666 ms  DeleteObjects: 0.765583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3585 unused Assets / (1.9 MB). Loaded Objects now: 4292.
+Memory consumption went from 334.4 MB to 332.6 MB.
+Total: 79.979250 ms (FindLiveObjects: 1.192042 ms CreateObjectMapping: 0.241708 ms MarkObjects: 76.932625 ms  DeleteObjects: 0.820917 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x179edf000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1460ms
+	BeginReloadAssembly (173ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (527ms)
+		LoadAssemblies (346ms)
+		TypeCache.Refresh (16ms)
+		AnalyzeDomain (136ms)
+			BuildScriptInfoCaches (133ms)
+	FinalizeReload (681ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (215ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (2.1 MB). Loaded Objects now: 4293.
+Memory consumption went from 348.4 MB to 346.4 MB.
+Total: 11.720875 ms (FindLiveObjects: 0.417500 ms CreateObjectMapping: 0.084541 ms MarkObjects: 10.412292 ms  DeleteObjects: 0.701166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x179edf000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1483ms
+	BeginReloadAssembly (207ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (470ms)
+		LoadAssemblies (289ms)
+		TypeCache.Refresh (13ms)
+		AnalyzeDomain (145ms)
+			BuildScriptInfoCaches (142ms)
+	FinalizeReload (723ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (231ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (2.2 MB). Loaded Objects now: 4294.
+Memory consumption went from 360.0 MB to 357.7 MB.
+Total: 12.057333 ms (FindLiveObjects: 0.416208 ms CreateObjectMapping: 0.089833 ms MarkObjects: 10.647917 ms  DeleteObjects: 0.795875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Thread 0x179edf000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[UnityMCP] Could not bind http://127.0.0.1:2718/: Address already in use
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:StartServer () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:96)
+Heav3ns.UnityMCP.UnityMcpEditorBridge:.cctor () (at Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/UnityMCP/Editor/UnityMcpEditorBridge.cs Line: 96)
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 1301ms
+	BeginReloadAssembly (234ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (261ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (9ms)
+	FinalizeReload (688ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (225ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3608 unused Assets / (2.0 MB). Loaded Objects now: 4295.
+Memory consumption went from 371.3 MB to 369.3 MB.
+Total: 12.476542 ms (FindLiveObjects: 0.521625 ms CreateObjectMapping: 0.097667 ms MarkObjects: 11.009792 ms  DeleteObjects: 0.740833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+Thread 0x17b887000 may have been prematurely finalized
+Thread 0x17b787000 may have been prematurely finalized
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

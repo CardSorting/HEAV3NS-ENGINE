@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "H3W-AL-001",
+    "title": "A Question of Doors",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 1,
+    "type": "Action",
+    "text": "Choose one: Draw 1 card; or return a friendly Character to hand.\nShield Trigger: Draw 1 card.",
+    "shield_trigger": "Draw 1 card.",
+    "source_id": "Alice_modal_A00",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "choice",
+        "choices": [
+          "draw1",
+          "bounce_friendly"
+        ]
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-002",
+    "title": "A Porcelain Rebuttal",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 1,
+    "type": "Counter",
+    "text": "Counter — Cancel an opponent’s Combo.\nShield Trigger: Draw 1 card.",
+    "shield_trigger": "Draw 1 card.",
+    "source_id": "Alice_modal_A01",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "cancel",
+        "scope": "combo"
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-003",
+    "title": "Borrowed Bravery",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 1,
+    "type": "Action",
+    "text": "Response — Return an enemy Character costing 2 or fewer Actions to hand.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_A02",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "bounce_enemy_max2"
+      }
+    ],
+    "combo": null,
+    "response_play": true
+  },
+  {
+    "id": "H3W-AL-004",
+    "title": "The Raven’s Footnote",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 1,
+    "type": "Counter",
+    "text": "Counter — Cancel an opponent’s Action or Counter effect.\nShield Trigger: Draw 1 card.",
+    "shield_trigger": "Draw 1 card.",
+    "source_id": "Alice_modal_A03",
+    "status": "FC04.1 provisional wording clarification; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "cancel",
+        "scope": "action"
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-005",
+    "title": "Talons at Low Tide",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 2,
+    "type": "Action",
+    "text": "Choose one: Draw 2 cards; or your opponent discards 1 card.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_A04",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "choice",
+        "choices": [
+          "draw2",
+          "discard_enemy1"
+        ]
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-006",
+    "title": "A Map of Elsewhere",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 1,
+    "type": "Action",
+    "text": "Take a Character from your discard into your hand.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_A05",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "recover_character"
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-007",
+    "title": "The Queen’s Favor",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 2,
+    "type": "Counter",
+    "text": "Counter — Cancel an opponent’s pending effect.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_A06",
+    "status": "FC04 proposed card refinement; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "cancel",
+        "scope": "effect"
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-008",
+    "title": "Checkmate the Sky",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 3,
+    "type": "Action",
+    "text": "With at least 2 friendly Characters in this sequence: Break 2 Shields.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_A07",
+    "status": "FC04 proposed card refinement; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "require_characters_in_sequence",
+        "n": 2
+      },
+      {
+        "kind": "break",
+        "n": 2
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-009",
+    "title": "Thimble Squire",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 1,
+    "type": "Character",
+    "text": "Combo 2: Break 1 Shield.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C00",
+    "status": "FC04.1 provisional pressure-network refinement; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 2,
+      "ops": [
+        {
+          "kind": "break",
+          "n": 1
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-010",
+    "title": "Velvet Caterpillar",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "On Entry: Draw 2 cards.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C01",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [
+      {
+        "kind": "draw",
+        "n": 2
+      }
+    ],
+    "entry": "Draw 2 cards.",
+    "ops": [],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-011",
+    "title": "Dodo, Last Witness",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 1,
+    "type": "Character",
+    "text": "On Entry: Draw 1 card.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C02_lean",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [
+      {
+        "kind": "draw",
+        "n": 1
+      }
+    ],
+    "entry": "Draw 1 card.",
+    "ops": [],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-012",
+    "title": "The Fish Footman",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "On Entry: Choose 1 of your deck’s top 3 cards for your hand; put the rest on the bottom.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C03_lean",
+    "status": "FC04 proposed card refinement; EGG approval required",
+    "entry_ops": [
+      {
+        "kind": "select",
+        "n": 3
+      }
+    ],
+    "entry": "Choose 1 of your deck’s top 3 cards for your hand; put the rest on the bottom.",
+    "ops": [],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-013",
+    "title": "Pepperpot Cook",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "On Entry: Choose one: Your opponent discards 1 card; or draw 1 card.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C04_lean",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [
+      {
+        "kind": "choice",
+        "choices": [
+          "discard_enemy",
+          "draw1"
+        ]
+      }
+    ],
+    "entry": "Choose one: Your opponent discards 1 card; or draw 1 card.",
+    "ops": [],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-014",
+    "title": "Cheshire Wayfinder",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 3,
+    "type": "Character",
+    "text": "Response\nOn Entry: You may return an enemy Character to hand.\nCombo 1: Take 1 of your deck’s top 3 to hand; bottom rest.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C05",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [
+      {
+        "kind": "bounce_enemy",
+        "optional": true
+      }
+    ],
+    "entry": "You may return an enemy Character to hand.",
+    "ops": [],
+    "combo": {
+      "n": 1,
+      "ops": [
+        {
+          "kind": "select",
+          "n": 3
+        }
+      ]
+    },
+    "response_play": true
+  },
+  {
+    "id": "H3W-AL-015",
+    "title": "Mock Turtle Warden",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "Combo 2: Draw 2 cards. You may take a Character from your discard into your hand.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C06",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 2,
+      "ops": [
+        {
+          "kind": "draw",
+          "n": 2
+        },
+        {
+          "kind": "recover_character",
+          "optional": true
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-016",
+    "title": "The Crownless Lion",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 3,
+    "type": "Character",
+    "text": "Combo 1: Break 2 Shields.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C07",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 1,
+      "ops": [
+        {
+          "kind": "break",
+          "n": 2
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-017",
+    "title": "Ivory Queen",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "Combo 2: Choose one: Break 2 Shields; or take a Character from your discard into your hand.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C08",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 2,
+      "ops": [
+        {
+          "kind": "choice",
+          "choices": [
+            "break2",
+            "recover_character"
+          ]
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-018",
+    "title": "Knight of the Rescue",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "On Entry: Choose one: Break 1 Shield; or take an Action or Counter from your discard into your hand.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C09",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [
+      {
+        "kind": "choice",
+        "choices": [
+          "break1",
+          "recover_action"
+        ]
+      }
+    ],
+    "entry": "Choose one: Break 1 Shield; or take an Action or Counter from your discard into your hand.",
+    "ops": [],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-019",
+    "title": "Jabberwock’s Riddle",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 3,
+    "type": "Character",
+    "text": "Combo 2: Break 2 Shields. If your opponent has 3 or fewer Shields when this effect starts resolving, break 3 instead.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C10",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 2,
+      "ops": [
+        {
+          "kind": "break_finisher",
+          "n": 2,
+          "finish": 3,
+          "threshold": 3
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-AL-020",
+    "title": "Alice Beyond Measure",
+    "deck": "Alice",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "On Entry: Draw 1 card.\nCombo 2: Break 2 Shields.",
+    "shield_trigger": null,
+    "source_id": "Alice_modal_C11",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [
+      {
+        "kind": "draw",
+        "n": 1
+      }
+    ],
+    "entry": "Draw 1 card.",
+    "ops": [],
+    "combo": {
+      "n": 2,
+      "ops": [
+        {
+          "kind": "break",
+          "n": 2
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-001",
+    "title": "Wind the Heart",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 2,
+    "type": "Action",
+    "text": "You may return a friendly Character to hand. Draw 1 card.\nShield Trigger: Draw 1 card.",
+    "shield_trigger": "Draw 1 card.",
+    "source_id": "Rabbit_rush_A00",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "bounce_friendly",
+        "optional": true
+      },
+      {
+        "kind": "draw",
+        "n": 1
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-002",
+    "title": "Borrowed Seconds",
+    "deck": "White Rabbit",
+    "copies": 1,
+    "cost": 1,
+    "type": "Counter",
+    "text": "Counter — When an opponent’s Combo is about to resolve, return a later Character in their sequence to hand.\nShield Trigger: Draw 1 card.",
+    "shield_trigger": "Draw 1 card.",
+    "source_id": "Rabbit_rush_A01",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "counter_bounce_later",
+        "scope": "combo"
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-003",
+    "title": "Two Bells Ahead",
+    "deck": "White Rabbit",
+    "copies": 1,
+    "cost": 2,
+    "type": "Action",
+    "text": "Choose one: Draw 2 cards; or take a Character from your discard into your hand.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_A02_durable",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "choice",
+        "choices": [
+          "draw2",
+          "recover_character"
+        ]
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-004",
+    "title": "Under the Watchcase",
+    "deck": "White Rabbit",
+    "copies": 1,
+    "cost": 1,
+    "type": "Action",
+    "text": "Draw 1 card.\nShield Trigger: Draw 1 card.",
+    "shield_trigger": "Draw 1 card.",
+    "source_id": "Rabbit_rush_A02_lean",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "draw",
+        "n": 1
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-005",
+    "title": "The Second Waking",
+    "deck": "White Rabbit",
+    "copies": 1,
+    "cost": 1,
+    "type": "Action",
+    "text": "Take a Character from your discard into your hand.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_A03_durable",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "recover_character"
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-006",
+    "title": "Strike of Twelve",
+    "deck": "White Rabbit",
+    "copies": 1,
+    "cost": 2,
+    "type": "Action",
+    "text": "Response — You may return an enemy Character to hand. Draw 1 card.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_A04_durable",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "bounce_enemy",
+        "optional": true
+      },
+      {
+        "kind": "draw",
+        "n": 1
+      }
+    ],
+    "combo": null,
+    "response_play": true
+  },
+  {
+    "id": "H3W-RA-007",
+    "title": "Snap the Spring",
+    "deck": "White Rabbit",
+    "copies": 1,
+    "cost": 1,
+    "type": "Counter",
+    "text": "Counter — Cancel an opponent’s On Entry effect.\nShield Trigger: Draw 1 card.",
+    "shield_trigger": "Draw 1 card.",
+    "source_id": "Rabbit_rush_A04_lean",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "cancel",
+        "scope": "entry"
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-008",
+    "title": "Red Ribbon Rally",
+    "deck": "White Rabbit",
+    "copies": 1,
+    "cost": 2,
+    "type": "Action",
+    "text": "Choose one: Draw 2 cards; or break 1 Shield.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_A05",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "choice",
+        "choices": [
+          "draw2",
+          "break1"
+        ]
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-009",
+    "title": "The Unwritten Hour",
+    "deck": "White Rabbit",
+    "copies": 1,
+    "cost": 1,
+    "type": "Counter",
+    "text": "Counter — Cancel an opponent’s Action or Counter effect.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_A06",
+    "status": "FC04.1 provisional wording clarification; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [
+      {
+        "kind": "cancel",
+        "scope": "action"
+      }
+    ],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-010",
+    "title": "Teacup Courier",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 1,
+    "type": "Character",
+    "text": "Combo 2: Break 1 Shield.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C00",
+    "status": "FC04.1 provisional pressure-network refinement; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 2,
+      "ops": [
+        {
+          "kind": "break",
+          "n": 1
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-011",
+    "title": "Chimney Runner",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 1,
+    "type": "Character",
+    "text": "Combo 1: Choose 1 of your deck’s top 3 cards for your hand; put the rest on the bottom.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C01",
+    "status": "FC04 proposed card refinement; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 1,
+      "ops": [
+        {
+          "kind": "select",
+          "n": 3
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-012",
+    "title": "Tweedledum",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "Combo 2: Choose one: Break 1 Shield; or your opponent discards 2 cards.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C02_durable",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 2,
+      "ops": [
+        {
+          "kind": "choice",
+          "choices": [
+            "break1",
+            "discard_enemy2"
+          ]
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-013",
+    "title": "Tweedledee",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 1,
+    "type": "Character",
+    "text": "On Entry: Draw 1 card.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C02_lean",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [
+      {
+        "kind": "draw",
+        "n": 1
+      }
+    ],
+    "entry": "Draw 1 card.",
+    "ops": [],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-014",
+    "title": "Frog Postmaster",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "On Entry: Draw 1 card.\nCombo 1: You may take a Character from your discard into your hand.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C03_durable",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [
+      {
+        "kind": "draw",
+        "n": 1
+      }
+    ],
+    "entry": "Draw 1 card.",
+    "ops": [],
+    "combo": {
+      "n": 1,
+      "ops": [
+        {
+          "kind": "recover_character",
+          "optional": true
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-015",
+    "title": "Magpie Express",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "Combo 1: Draw 2 cards.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C03_lean",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 1,
+      "ops": [
+        {
+          "kind": "draw",
+          "n": 2
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-016",
+    "title": "March Hare",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 1,
+    "type": "Character",
+    "text": "On Entry: You may return another friendly Character to hand.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C04_durable",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [
+      {
+        "kind": "bounce_other",
+        "optional": true
+      }
+    ],
+    "entry": "You may return another friendly Character to hand.",
+    "ops": [],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-017",
+    "title": "Glasswing Knight",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "Combo 1: Choose one: Break 1 Shield; or take an Action or Counter from your discard into your hand.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C04_lean",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 1,
+      "ops": [
+        {
+          "kind": "choice",
+          "choices": [
+            "break1",
+            "recover_action"
+          ]
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-018",
+    "title": "Nobody, First There",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "On Entry: Choose one: Draw 1 card; or break 1 Shield.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C05",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [
+      {
+        "kind": "choice",
+        "choices": [
+          "draw1",
+          "break1"
+        ]
+      }
+    ],
+    "entry": "Choose one: Draw 1 card; or break 1 Shield.",
+    "ops": [],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-019",
+    "title": "The Gatecrasher",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 3,
+    "type": "Character",
+    "text": "Combo 1: Break 1 Shield. Draw 2 cards.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C06",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 1,
+      "ops": [
+        {
+          "kind": "break",
+          "n": 1
+        },
+        {
+          "kind": "draw",
+          "n": 2
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-020",
+    "title": "Silverhorn Herald",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 3,
+    "type": "Character",
+    "text": "On Entry: Choose one: Draw 2 cards; or take a card from your discard into your hand.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C07",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [
+      {
+        "kind": "choice",
+        "choices": [
+          "draw2",
+          "recover_any"
+        ]
+      }
+    ],
+    "entry": "Choose one: Draw 2 cards; or take a card from your discard into your hand.",
+    "ops": [],
+    "combo": null,
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-021",
+    "title": "The Damwright",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "Combo 1: Draw 1 card. You may take an Action or Counter from your discard into your hand.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C08",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 1,
+      "ops": [
+        {
+          "kind": "draw",
+          "n": 1
+        },
+        {
+          "kind": "recover_action",
+          "optional": true
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-022",
+    "title": "White Rabbit, Unbound",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 2,
+    "type": "Character",
+    "text": "On Entry: You may return another friendly Character to hand.\nCombo 1: Break 1 Shield.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C09",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [
+      {
+        "kind": "bounce_other",
+        "optional": true
+      }
+    ],
+    "entry": "You may return another friendly Character to hand.",
+    "ops": [],
+    "combo": {
+      "n": 1,
+      "ops": [
+        {
+          "kind": "break",
+          "n": 1
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-023",
+    "title": "The Bandersnatch",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 3,
+    "type": "Character",
+    "text": "Combo 2: Break 2 Shields. If your opponent has 3 or fewer Shields when this effect starts resolving, break 3 instead.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C10",
+    "status": "FC-03 proposed ability refinement; curator review",
+    "entry_ops": [],
+    "entry": null,
+    "ops": [],
+    "combo": {
+      "n": 2,
+      "ops": [
+        {
+          "kind": "break_finisher",
+          "n": 2,
+          "finish": 3,
+          "threshold": 3
+        }
+      ]
+    },
+    "response_play": false
+  },
+  {
+    "id": "H3W-RA-024",
+    "title": "Red Knight at Dawn",
+    "deck": "White Rabbit",
+    "copies": 2,
+    "cost": 3,
+    "type": "Character",
+    "text": "Response\nOn Entry: You may return an enemy Character to hand.\nCombo 1: Break 1 Shield.",
+    "shield_trigger": null,
+    "source_id": "Rabbit_rush_C11",
+    "status": "FC04.1 provisional mechanical reconstruction; EGG approval required",
+    "entry_ops": [
+      {
+        "kind": "bounce_enemy",
+        "optional": true
+      }
+    ],
+    "entry": "You may return an enemy Character to hand.",
+    "ops": [],
+    "combo": {
+      "n": 1,
+      "ops": [
+        {
+          "kind": "break",
+          "n": 1
+        }
+      ]
+    },
+    "response_play": true
+  }
+]

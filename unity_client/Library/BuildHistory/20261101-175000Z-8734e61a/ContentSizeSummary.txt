@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Build Report - Content Size Statistics
+Serialized File count                      4
+Resource file count                        2
+Object count                            2263
+Serialized Files                     581.0 kb	  15.2%
+Serialized Files Headers              70.5 kb	   1.8%
+Resource data (Texture,Audio...)       3.2 mb	  84.8%
+Total build size                       3.7 mb
+
+Largest Types:
+     2.7 mb	  73.5% Texture2D
+   512.2 kb	  13.4% Cubemap
+   100.0 kb	   2.6% MonoBehaviour
+    81.5 kb	   2.1% Shader
+    78.0 kb	   2.0% MonoScript
+    55.3 kb	   1.4% MeshRenderer
+
+Largest Assets:
+   578.4 kb	  15.1% Resources/unity_builtin_extra
+   340.2 kb	   8.9% Assets/Scenes/Battlefield.unity
+-------------------------------------------------------------------------------

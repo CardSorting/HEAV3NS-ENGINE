@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+root="$(cd "$(dirname "$0")/.." && pwd -P)"
+project="$root/unity_client"
+unity_cli="${UNITY_CLI:-/Applications/Unity Hub.app/Contents/Resources/unity}"
+editor="${UNITY_PATH:-/Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app}"
+
+if [[ "${1:-}" != "" && "${1:-}" != "--start" ]]; then
+  echo "Usage: $0 [--start]" >&2
+  exit 2
+fi
+if [[ ! -x "$unity_cli" ]]; then
+  echo "Unity CLI not found: $unity_cli" >&2
+  exit 1
+fi
+if [[ "${1:-}" == "--start" ]]; then
+  # `open` targets the existing editor if it is already running.
+  open -a "$editor" --args -projectPath "$project"
+  "$unity_cli" status --project-path "$project" --until-ready --timeout 120
+else
+  "$unity_cli" status --project-path "$project"
+fi
+echo "Checking live Editor command response..."
+"$unity_cli" command --project-path "$project" --timeout 10 editor status

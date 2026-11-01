@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Build Report - Content Size Statistics
+Serialized File count                      4
+Resource file count                        3
+Object count                            2423
+Serialized Files                    1015.3 kb	   3.9%
+Serialized Files Headers              74.3 kb	   0.3%
+Resource data (Texture,Audio...)      24.5 mb	  96.1%
+Total build size                      25.5 mb
+
+Largest Types:
+    24.1 mb	  94.5% Texture2D
+   512.2 kb	   2.0% Cubemap
+   344.2 kb	   1.3% TextRendering::Font
+
+Largest Assets:
+     2.7 mb	  10.5% Assets/Resources/Hub/Characters/WhiteRabbit.png
+     2.7 mb	  10.5% Assets/Resources/Hub/Characters/Alice.png
+     1.0 mb	   4.0% Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+   578.4 kb	   2.2% Resources/unity_builtin_extra
+   347.0 kb	   1.3% Assets/Scenes/Battlefield.unity
+   344.5 kb	   1.3% Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-001.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-019.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-004.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-002.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-018.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-001.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-022.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-006.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/card-back.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-010.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-019.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-008.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-006.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-007.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-014.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-015.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-014.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-024.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-012.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-017.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-011.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-011.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-002.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-004.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-013.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-013.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-010.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-017.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-016.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-016.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-008.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-005.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-009.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-023.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-007.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-020.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-015.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-009.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-003.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-012.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-018.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-003.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-020.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-AL-005.png
+   341.5 kb	   1.3% Assets/Resources/Hub/Cards/H3W-RA-021.png
+-------------------------------------------------------------------------------

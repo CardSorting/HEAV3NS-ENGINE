@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Build Report - Content Size Statistics
+Serialized File count                      4
+Resource file count                        2
+Object count                            2280
+Serialized Files                     976.2 kb	  18.6%
+Serialized Files Headers              71.0 kb	   1.4%
+Resource data (Texture,Audio...)       4.2 mb	  81.4%
+Total build size                       5.1 mb
+
+Largest Types:
+     3.7 mb	  73.2% Texture2D
+   512.2 kb	   9.8% Cubemap
+   344.2 kb	   6.6% TextRendering::Font
+   131.3 kb	   2.5% MonoBehaviour
+    93.6 kb	   1.8% Shader
+    78.0 kb	   1.5% MonoScript
+    55.3 kb	   1.1% MeshRenderer
+
+Largest Assets:
+     1.0 mb	  20.1% Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+   578.4 kb	  11.0% Resources/unity_builtin_extra
+   344.5 kb	   6.6% Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+   339.6 kb	   6.5% Assets/Scenes/Battlefield.unity
+-------------------------------------------------------------------------------

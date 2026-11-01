@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "unity-editor-mcp": {
+      "command": "/Applications/Unity Hub.app/Contents/Resources/unity",
+      "args": [
+        "mcp",
+        "--project-path",
+        "/Users/bozoegg/Desktop/HEAV3NS-ENGINE/unity_client"
+      ]
+    }
+  }
+}
+

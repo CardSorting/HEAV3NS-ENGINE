@@ -1,0 +1,35 @@
+{
+  "name": "com.unity.pipeline",
+  "displayName": "Unity Pipeline",
+  "version": "0.9.1-exp.1",
+  "unity": "6000.0",
+  "category": "Pipeline",
+  "description": "This package allows application (cli, agent or other) to connect to the editor or a running game and execute commands (build, run_tests, play/pause, methodreload)",
+  "keywords": [
+    "pipeline",
+    "connected",
+    "authoring",
+    "methodreload"
+  ],
+  "dependencies": {
+    "com.unity.test-framework": "1.1.33",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.0.2",
+    "com.unity.nuget.mono-cecil": "1.11.6",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.screencapture": "1.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.pipeline.tests": "0.0.0"
+  },
+  "repository": {
+    "revision": "5857811f46dead8df0e98fb813c46a71c5cab2b5",
+    "type": "git",
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.pipeline.git"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.pipeline@0.9/manual/index.html",
+  "_upm": {
+    "changelog": "### Changed\n\n- `[CliCommand(name, description)]` reads a dotted name as group and name (`\"animation.skeleton.set_bone\"`), and is no longer obsolete.\n- `[CliCommand(description)]` infers the group from the declaring type's namespace and class, and the name from the method.\n\n### Fixed\n\n- UAL0010/UAL0013 AutoStaticsCleanup analyzer warnings when opening a project with Unity 7.0.\n- Building for Android, iOS or any other non-Standalone platform no longer throws `ArgumentException: Subtarget property is not available for the platform` in the Pipeline's pre-build step, which skipped baking the runtime settings into the build."
+  },
+  "_fingerprint": "363b8bb9e91d34dcfcd1c8b60373422d978b6d57"
+}
